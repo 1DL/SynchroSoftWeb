@@ -3,37 +3,33 @@
 <head>
 	<style>
 
-		#teste
+		/* #teste
 		{
-			 /* position: absolute; */
-		  	 /* top: 50%;
+			 position: fixed;
+			 top: 50%;
 			 left: 50%;			 
-			 transform: translate(-50%, -50%); */
+			 transform: translate(-50%, -50%);
 			 border: solid; 
-		}
+		} */
 
 		body, html
 		{
-			/*The image used*/ 
-		    
-
-				 /* padding-top: 3rem;
-  padding-bottom: 3rem; */
-
-		    /*Full height*/
 		    height: 100%;
-
-		     /*Center and scale the image nicely */
-		    /*background-position: center;*/
 		    
 		}	
 
 		body
 		{
-			background-repeat: no-repeat;
-		    background-size: cover;
+			/* background-repeat: no-repeat; */
+		  background-size: cover;
 			background-position: center;
 			background-image: url("img/fundo.png");
+		}
+
+		.jumbotron
+		{
+			margin-bottom: 0;
+
 		}
 
 	</style>
@@ -54,44 +50,48 @@
 
 	<?php include('navBar.php'); ?>
 
-	<div class="container p-3 mb-2 bg-primary text-white" id="teste">
-		<form method="POST">
-			<div class="row">
-			<div class="form-group col-md-4 mb-3">
-		    	<label for="codigo">Código da peça</label>
-		    	<input type="number" class="form-control" placeholder="Digite o código da peça">
-		  	</div>
-		  	<div class="form-group col-md-4 mb-3">
-		    	<label for="categoriaPeca">Categoria da peça</label>
-		    	<select class="form-control">
-		    		<option>escolha...</option>
-		    		<option>teste</option>
-		    		<option>teste</option>
-		    		<option>teste</option>
-		    		<option>teste</option>
-		    	</select>
-		  	</div>
-		  	<div class="form-group col-md-4 mb-3">
-		    	<label for="Nome">Nome da peça</label>
-		    	<input type="text" class="form-control" placeholder="Digite o nome da peça">
-		  	</div>
-		  	<div class="form-group col-md-4 mb-3">
-		    	<label for="Quantidade">Quantidade da peça</label>
-		    	<input type="number" class="form-control" placeholder="Digite a quantidade de peças">
-		  	</div>
-		  	<div class="form-group col-md-4 mb-3">
-		    	<label for="ValorUnitario">Valor unitário</label>
-		    	<input type="number" class="form-control" placeholder="Digite o valor unitário da peça">
-		  	</div>  	
-		  	
-		  	</div>
-		  	<br>
-		  	<div class="d-flex justify-content-between"">
-  				<button type="submit" class="btn btn-primary p-3 mb-2 bg-success text-white" id="btnLimpar">Limpar</button>
-		  		<button type="submit" class="btn btn-primary p-3 mb-2 bg-success text-white" id="btnCad">Cadastrar</button>
-		  	</div>
-		  	
-		</form>
+	<div class="jumbotron bg-transparent">
+		<div class="d-flex align-self-center">
+			<div class="container p-3 mb-2 bg-primary text-white" id="teste">
+				<form method="POST">
+					<div class="row">
+					<div class="form-group col-md-4 mb-3">
+							<label for="codigo">Código da peça</label>
+							<input type="number" class="form-control" placeholder="Digite o código da peça">
+						</div>
+						<div class="form-group col-md-4 mb-3">
+							<label for="categoriaPeca">Categoria da peça</label>
+							<select class="form-control">
+								<option>escolha...</option>
+								<option>teste</option>
+								<option>teste</option>
+								<option>teste</option>
+								<option>teste</option>
+							</select>
+						</div>
+						<div class="form-group col-md-4 mb-3">
+							<label for="Nome">Nome da peça</label>
+							<input type="text" class="form-control" placeholder="Digite o nome da peça">
+						</div>
+						<div class="form-group col-md-4 mb-3">
+							<label for="Quantidade">Quantidade da peça</label>
+							<input type="number" class="form-control" placeholder="Digite a quantidade de peças">
+						</div>
+						<div class="form-group col-md-4 mb-3">
+							<label for="ValorUnitario">Valor unitário</label>
+							<input type="number" class="form-control" placeholder="Digite o valor unitário da peça">
+						</div>  	
+						
+						</div>
+						<br>
+						<div class="d-flex justify-content-between"">
+							<button type="submit" class="btn btn-primary p-3 mb-2 bg-success text-white" id="btnLimpar">Limpar</button>
+							<button type="submit" class="btn btn-primary p-3 mb-2 bg-success text-white" id="btnCad">Cadastrar</button>
+						</div>
+						
+				</form>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
