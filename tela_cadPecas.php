@@ -15,7 +15,7 @@
 		body
 		{
 			/*The image used*/ 
-		    background-image: url("fundo.png");
+		    background-image: url("img/fundo.png");
 
 		    /*Full height*/
 		    height: 100%;
