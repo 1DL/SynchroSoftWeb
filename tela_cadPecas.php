@@ -15,10 +15,14 @@
 		body, html
 		{
 			/*The image used*/ 
+<<<<<<< HEAD
 		    
 
 				 /* padding-top: 3rem;
   padding-bottom: 3rem; */
+=======
+		    background-image: url("img/fundo.png");
+>>>>>>> e8f1ab79cb83b84591205884bc6f753707031e7d
 
 		    /*Full height*/
 		    height: 100%;
@@ -45,6 +49,16 @@
 	<title>Cadastro de peças</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<<<<<<< HEAD
+=======
+
+	<!-- inserindo barra de navegação -->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand text-light" href="#">Synchro</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+>>>>>>> e8f1ab79cb83b84591205884bc6f753707031e7d
 
 	
 
