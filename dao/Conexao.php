@@ -2,7 +2,7 @@
     /*Autor: Luiz Henrique*/
 
     
-    echo (PHP_INT_SIZE * 8) . '-bit '; //Teste 32/64bits da versão do PHP
+    //echo (PHP_INT_SIZE * 8) . '-bit '; //Teste 32/64bits da versão do PHP
 
     $logindb = "system"; //Login do Oracle
     $senhadb = "system"; //Senha do Oracle
@@ -66,4 +66,3 @@
         $err = OCIError();
         echo "Conexão falhou. Erro: " . $err[text];
     }
-?>
